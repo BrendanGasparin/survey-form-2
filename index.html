@@ -8,5 +8,12 @@
   <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">Please fill out the following survey.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name=label">Enter your full name: <input id="name" name="name" type="text" required /></label>
+        <label for="email" id="email-label">Enter your email address: <input id="email" name="email" type="email" required /></label>
+        <label for="number" id="number-label">Enter your age (13-120): <input id="number" max="120" min="13" name="number" type="number" required /></label>
+      </fieldset>
+    </form>
   </body>
 </html>
