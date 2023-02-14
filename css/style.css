@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #0C4160;
+  color: #ffffff;
+}
+
+fieldset {
+  background-color: #071330;
+}
