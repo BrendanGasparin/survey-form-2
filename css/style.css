@@ -10,6 +10,15 @@ html {
   color: #ffffff;
 }
 
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
 fieldset {
   background-color: #071330;
 }
